@@ -1,8 +1,8 @@
 <div class="card">
-    <img src="https://via.placeholder.com/300x180" alt="Imagem do Card" class="card-img">
+    <img [src]="imagem" alt="Imagem do Card" class="card-img">
     <div class="card-body">
-        <h3 class="card-title">Título do Card</h3>
-        <p class="card-text">Este é um exemplo de conteúdo para o card. Você pode adicionar qualquer informação aqui.</p>
+        <h3 class="card-title">{{title}}</h3>
+        <p class="card-text">{{descricao}}</p>
         <button class="card-btn">Saiba Mais</button>
     </div>
 </div>
